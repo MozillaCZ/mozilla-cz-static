@@ -1,0 +1,12 @@
+# Make Redirection plugin work here
+<IfModule mod_rewrite.c>
+	RewriteCond %{REQUEST_FILENAME} !-f 
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.php [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^cs@dictionaries\.addons\.mozilla\.org-1\.0\.4\.zip$ https://github.com/MozillaCZ/cesky_slovnik_pro_kontrolu_pravopisu/releases/download/v1.0.4/cs.dictionaries.addons.mozilla.org-1.0.4.zip [L,R=301]
+</IfModule>
+

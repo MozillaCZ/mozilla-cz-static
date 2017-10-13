@@ -1,0 +1,32 @@
+{
+  "name": "Mozilla.cz",
+  "description": "Česká komunita uživatelů aplikací Mozilly",
+  "repository": {
+    "url": "https://github.com/MozillaCZ/OneMozilla-MozillaCZ",
+    "license": "GPL-3.0"
+  },
+  "participate": {
+    "docs": "https://www.mozilla.cz/zapojte-se/",
+    "irc": "irc://irc.mozilla.org/#l10n",
+    "irc-contacts": [
+      "MikkCZ"
+    ]
+  },
+  "bugs": {
+    "list": "https://waffle.io/MozillaCZ/ukoly",
+    "report": "https://github.com/MozillaCZ/ukoly/issues/new"
+  },
+  "urls": {
+    "prod": "https://www.mozilla.cz/"
+  },
+  "keywords": [
+    "Mozilla",
+    "WordPress",
+    "PHP",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "l10n"
+  ]
+}
+
