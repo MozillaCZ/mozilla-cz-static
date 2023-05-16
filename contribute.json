@@ -2,18 +2,18 @@
   "name": "Mozilla.cz",
   "description": "Česká komunita uživatelů aplikací Mozilly",
   "repository": {
-    "url": "https://github.com/MozillaCZ/OneMozilla-MozillaCZ",
+    "url": "https://github.com/MozillaCZ/frontierline-mozillacz",
     "license": "GPL-3.0"
   },
   "participate": {
+    "home": "https://www.mozilla.cz/",
     "docs": "https://www.mozilla.cz/zapojte-se/",
-    "irc": "irc://irc.mozilla.org/#l10n",
-    "irc-contacts": [
-      "MikkCZ"
-    ]
+    "chat": {
+      "url": "https://matrix.to/#/#mozillacz-space:mozilla.org"
+    }
   },
   "bugs": {
-    "list": "https://waffle.io/MozillaCZ/ukoly",
+    "list": "https://github.com/MozillaCZ/ukoly",
     "report": "https://github.com/MozillaCZ/ukoly/issues/new"
   },
   "urls": {
@@ -29,4 +29,3 @@
     "l10n"
   ]
 }
-
